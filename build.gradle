@@ -18,6 +18,7 @@ sourceSets {
     }
 }
 
+
 test {
     useJUnitPlatform()
     systemProperty "karate.options", System.properties.getProperty("karate.options")
