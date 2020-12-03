@@ -1,0 +1,8 @@
+<testsuite failures="0" name="featurefiles/karate11.feature" skipped="0" tests="1" time="0.025944">
+  <testcase classname="featurefiles.karate11" name="Java script test case 01" time="0.025944">
+    <system-out>* def fn1 = function() { return 123; } .................................... passed
+* def fn2 = ............................................................... passed
+* print fn1() ............................................................. passed
+* fn2('tintin') ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

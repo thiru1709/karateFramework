@@ -1,0 +1,22 @@
+<testsuite failures="0" name="featurefiles/karate09.feature" skipped="0" tests="2" time="0.158526">
+  <testcase classname="featurefiles.karate09" name="Url and path test case 01" time="0.086416">
+    <system-out>Given url "https://reqres.in" ............................................. passed
+And path "/api/users?page=2" .............................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* match response.page == 1 ................................................ passed</system-out>
+  </testcase>
+  <testcase classname="featurefiles.karate09" name="Url and path test case 02" time="0.07211">
+    <system-out>Given url "https://reqres.in" ............................................. passed
+And path "/api/users?page=2" .............................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* match response.page == 1 ................................................ passed
+Given url "https://reqres.in" ............................................. passed
+And path "/api/users" ..................................................... passed
+And param page = 2 ........................................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* match response.page == "##" ............................................. passed</system-out>
+  </testcase>
+</testsuite>

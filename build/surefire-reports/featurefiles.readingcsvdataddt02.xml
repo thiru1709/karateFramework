@@ -1,0 +1,72 @@
+<testsuite failures="0" name="featurefiles/readingcsvdataddt02.feature" skipped="0" tests="5" time="0.007382">
+  <testcase classname="featurefiles.readingcsvdataddt02" name="reading csv ddt test case" time="0.001655">
+    <system-out>* def data = read('classpath:data.csv') ................................... passed
+* print "1, cust1, 23" .................................................... passed
+* def json1 = {"last_name" : cust1} ....................................... passed
+* print json1 ............................................................. passed</system-out>
+  </testcase>
+  <testcase classname="featurefiles.readingcsvdataddt02" name="reading csv ddt test case" time="0.00128">
+    <system-out>* def data = read('classpath:data.csv') ................................... passed
+* print "1, cust1, 23" .................................................... passed
+* def json1 = {"last_name" : cust1} ....................................... passed
+* print json1 ............................................................. passed
+* def data = read('classpath:data.csv') ................................... passed
+* print "2, cust2, 24" .................................................... passed
+* def json1 = {"last_name" : cust2} ....................................... passed
+* print json1 ............................................................. passed</system-out>
+  </testcase>
+  <testcase classname="featurefiles.readingcsvdataddt02" name="reading csv ddt test case" time="0.001716">
+    <system-out>* def data = read('classpath:data.csv') ................................... passed
+* print "1, cust1, 23" .................................................... passed
+* def json1 = {"last_name" : cust1} ....................................... passed
+* print json1 ............................................................. passed
+* def data = read('classpath:data.csv') ................................... passed
+* print "2, cust2, 24" .................................................... passed
+* def json1 = {"last_name" : cust2} ....................................... passed
+* print json1 ............................................................. passed
+* def data = read('classpath:data.csv') ................................... passed
+* print "3, cust3, 25" .................................................... passed
+* def json1 = {"last_name" : cust3} ....................................... passed
+* print json1 ............................................................. passed</system-out>
+  </testcase>
+  <testcase classname="featurefiles.readingcsvdataddt02" name="reading csv ddt test case" time="0.001341">
+    <system-out>* def data = read('classpath:data.csv') ................................... passed
+* print "1, cust1, 23" .................................................... passed
+* def json1 = {"last_name" : cust1} ....................................... passed
+* print json1 ............................................................. passed
+* def data = read('classpath:data.csv') ................................... passed
+* print "2, cust2, 24" .................................................... passed
+* def json1 = {"last_name" : cust2} ....................................... passed
+* print json1 ............................................................. passed
+* def data = read('classpath:data.csv') ................................... passed
+* print "3, cust3, 25" .................................................... passed
+* def json1 = {"last_name" : cust3} ....................................... passed
+* print json1 ............................................................. passed
+* def data = read('classpath:data.csv') ................................... passed
+* print "4, cust4, 26" .................................................... passed
+* def json1 = {"last_name" : cust4} ....................................... passed
+* print json1 ............................................................. passed</system-out>
+  </testcase>
+  <testcase classname="featurefiles.readingcsvdataddt02" name="reading csv ddt test case" time="0.00139">
+    <system-out>* def data = read('classpath:data.csv') ................................... passed
+* print "1, cust1, 23" .................................................... passed
+* def json1 = {"last_name" : cust1} ....................................... passed
+* print json1 ............................................................. passed
+* def data = read('classpath:data.csv') ................................... passed
+* print "2, cust2, 24" .................................................... passed
+* def json1 = {"last_name" : cust2} ....................................... passed
+* print json1 ............................................................. passed
+* def data = read('classpath:data.csv') ................................... passed
+* print "3, cust3, 25" .................................................... passed
+* def json1 = {"last_name" : cust3} ....................................... passed
+* print json1 ............................................................. passed
+* def data = read('classpath:data.csv') ................................... passed
+* print "4, cust4, 26" .................................................... passed
+* def json1 = {"last_name" : cust4} ....................................... passed
+* print json1 ............................................................. passed
+* def data = read('classpath:data.csv') ................................... passed
+* print "5, cust5, 27" .................................................... passed
+* def json1 = {"last_name" : cust5} ....................................... passed
+* print json1 ............................................................. passed</system-out>
+  </testcase>
+</testsuite>

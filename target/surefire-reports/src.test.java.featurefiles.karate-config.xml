@@ -1,0 +1,8 @@
+<testsuite failures="0" name="src/test/java/featurefiles/karate-config.feature" skipped="0" tests="1" time="0.762359">
+  <testcase classname="src.test.java.featurefiles.karate-config" name="Karate config testcase 1" time="0.762359">
+    <system-out>Given url base_url ........................................................ passed
+And path misUsers ......................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>
